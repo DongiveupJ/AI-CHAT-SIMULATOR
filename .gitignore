@@ -4,6 +4,8 @@
 
 # 2. 환경 변수 및 설정 (API 키 포함)
 .env
+.env.*
+!.env.example
 .flaskenv
 secrets.toml
 
@@ -25,3 +27,6 @@ env/
 # 6. 운영체제 임시 파일
 .DS_Store
 Thumbs.db
+
+# 개인 보존 자료: 원본 DB, 공격 기록, 로그, 비교 기록
+.local/

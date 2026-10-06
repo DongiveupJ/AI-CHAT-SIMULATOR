@@ -1,0 +1,15 @@
+# Dockerfile의 COPY . . 에서 개인 자료와 비밀파일 제외
+.git
+.local
+.env
+.env.*
+!.env.example
+.flaskenv
+secrets.toml
+*.db
+*.db-*
+*.sqlite3
+.venv
+venv
+env
+__pycache__
